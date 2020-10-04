@@ -1,0 +1,420 @@
+The food is very average ... the Thai fusion stuff is a bit too sweet , every thing they serve is too sweet here .
+[(1, 1), (4, 4), 'NEG'];[(7, 9), (13, 14), 'NEG']
+We went around 9:30 on a Friday and it had died down a bit by then so the service was great !
+[(18, 18), (20, 20), 'POS']
+we love th pink pony .
+[(3, 4), (1, 1), 'POS']
+the food is decent .
+[(1, 1), (3, 3), 'NEU']
+however , it 's the service that leaves a bad taste in my mouth .
+[(5, 5), (9, 10), 'NEG']
+i happen to have a policy that goes along with a little bit of self-respect , which includes not letting a waiter intimidate me , i.e . make me feel bad asking for trivialities like water , or the check .
+[(21, 21), (30, 30), 'NEG']
+I tend to judge a sushi restaurant by its sea urchin , which was heavenly at sushi rose .
+[(9, 10), (14, 14), 'POS']
+The sushi seemed pretty fresh and was adequately proportioned .
+[(1, 1), (4, 4), 'POS'];[(1, 1), (8, 8), 'POS']
+In the evening , this place attracted a well dressed , with it , NY crowd .
+[(15, 15), (6, 6), 'POS']
+The food was well prepared and the service impecable .
+[(1, 1), (3, 4), 'POS'];[(7, 7), (8, 8), 'POS']
+The Prix Fixe menu is worth every penny and you get more than enough ( both in quantity AND quality ) .
+[(1, 3), (5, 5), 'POS']
+The kitchen however , is almost always slow .
+[(1, 1), (7, 7), 'NEG']
+Add to that great service and great food at a reasonable price and you have yourself the beginning of a great evening .
+[(4, 4), (3, 3), 'POS'];[(7, 7), (6, 6), 'POS']
+The pizza was delivered cold and the cheese was n't even fully melted !
+[(1, 1), (4, 4), 'NEG'];[(7, 7), (8, 12), 'NEG']
+Yes , they use fancy ingredients , but even fancy ingredients do n't make for good pizza unless someone knows how to get the crust right .
+[(5, 5), (4, 4), 'POS'];[(16, 16), (15, 15), 'NEG']
+Best Pastrami I ever had and great portion without being ridiculous .
+[(1, 1), (0, 0), 'POS'];[(7, 7), (6, 6), 'POS']
+My wife had the fried shrimp which are huge and loved it .
+[(4, 5), (8, 8), 'POS'];[(4, 5), (10, 10), 'POS']
+This place is the most Japanese it can ever get .
+[(1, 1), (5, 5), 'POS']
+Leon is an East Village gem : casual but hip , with well prepared basic French bistro fare , good specials , a warm and lively atmosphere .
+[(0, 0), (7, 7), 'POS'];[(0, 0), (9, 9), 'POS'];[(15, 17), (12, 13), 'POS'];[(20, 20), (19, 19), 'POS'];[(26, 26), (23, 23), 'POS'];[(26, 26), (25, 25), 'POS']
+The food was bland oily .
+[(1, 1), (3, 4), 'NEG']
+I went there for lunch and it was not as good as I expected from the reviews I read .
+[(4, 4), (8, 13), 'NEG']
+This place is great .
+[(1, 1), (3, 3), 'POS']
+Great pizza and fantastic service .
+[(1, 1), (0, 0), 'POS'];[(4, 4), (3, 3), 'POS']
+The place is small and cramped but the food is fantastic .
+[(1, 1), (3, 3), 'NEG'];[(1, 1), (5, 5), 'NEG'];[(8, 8), (10, 10), 'POS']
+Moules were excellent , lobster ravioli was VERY salty !
+[(0, 0), (2, 2), 'POS'];[(4, 5), (8, 8), 'NEG']
+The exotic food is beautifully presented and is a delight in delicious combinations .
+[(1, 2), (4, 5), 'POS'];[(1, 2), (9, 9), 'POS']
+The staff is incredibly helpful and attentive .
+[(1, 1), (4, 4), 'POS'];[(1, 1), (6, 6), 'POS']
+I had a great time at Jekyll and Hyde !
+[(6, 8), (3, 4), 'POS']
+Our server was very helpful and friendly .
+[(1, 1), (4, 4), 'POS'];[(1, 1), (6, 6), 'POS']
+The food was good too .
+[(1, 1), (3, 3), 'POS']
+Service was prompt and courteous .
+[(0, 0), (2, 2), 'POS'];[(0, 0), (4, 4), 'POS']
+Great service , great food .
+[(1, 1), (0, 0), 'POS'];[(4, 4), (3, 3), 'POS']
+Wait staff is blantently unappreciative of your business but its the best pie on the UWS !
+[(0, 1), (4, 4), 'NEG'];[(12, 12), (11, 11), 'POS']
+By far the best salad I have had in a fast food restaurant .
+[(4, 4), (3, 3), 'POS']
+Food was very good as well , considering that we tried the budget selection ( though I wish the pork belly that I ordered was roasted a bit longer , so that fat was more of a melt-in-your-mouth experience ) .
+[(0, 0), (3, 3), 'POS']
+The workers there also absolutely load the bagel with cream cheese ( gets a little messy ) .
+[(7, 7), (15, 15), 'NEG']
+I highly recommend Cafe St. Bart 's for their food , the ambience and wonderful service .
+[(9, 9), (2, 2), 'POS'];[(12, 12), (2, 2), 'POS'];[(15, 15), (14, 14), 'POS']
+All the staff is absolutely professional ! !
+[(2, 2), (5, 5), 'POS']
+The scallion pancakes and fried dumplings were nothing out of the ordinary .
+[(1, 2), (11, 11), 'NEU'];[(4, 5), (11, 11), 'NEU']
+The service was the only thing good about this restaurant .
+[(1, 1), (6, 6), 'POS']
+fresh restaurant was amazing ... ... .. food was delicious and of course fresh .
+[(0, 1), (0, 0), 'POS'];[(0, 1), (3, 3), 'POS'];[(7, 7), (9, 9), 'POS'];[(7, 7), (13, 13), 'POS']
+Hats off to the chef .
+[(4, 4), (0, 1), 'POS']
+the salads are delicious , both refreshing and very spicy .
+[(1, 1), (3, 3), 'POS'];[(1, 1), (6, 6), 'POS'];[(1, 1), (9, 9), 'POS']
+They have it all -- great price , food , and service .
+[(8, 8), (5, 5), 'POS'];[(11, 11), (5, 5), 'POS']
+And evaluated on those terms Pastis is simply wonderful .
+[(5, 5), (8, 8), 'POS']
+The hanger steak was like rubber and the tuna was flavorless not to mention it tasted like it had just been thawed .
+[(1, 2), (5, 5), 'NEG'];[(8, 8), (10, 10), 'NEG']
+The filet mignon dish was superb !
+[(1, 3), (5, 5), 'POS']
+THe Pizza and wine were excellent -- the service too -- but what really MADE this place was the backyard dining area .
+[(1, 1), (5, 5), 'POS'];[(3, 3), (5, 5), 'POS'];[(8, 8), (5, 5), 'POS']
+First of all , this place is *not* romantic , as claimed by Citysearch 's editorial review .
+[(5, 5), (7, 8), 'NEG']
+The tables are crammed way too close , the menu is typical of any Italian restaurant , and the wine list is simply overpriced .
+[(1, 1), (3, 3), 'NEG'];[(1, 1), (5, 6), 'NEG'];[(9, 9), (11, 11), 'NEU'];[(19, 20), (23, 23), 'NEG']
+Myagi is one of my favorite restaurants in the City ; the place the negative reviews describe sound like they were somewhere else .
+[(0, 0), (5, 5), 'POS']
+I 've never had bad service and the fish is fresh and delicious .
+[(5, 5), (2, 4), 'POS'];[(8, 8), (10, 10), 'POS'];[(8, 8), (12, 12), 'POS']
+I highly recommend to anyone to give this place a try .
+[(8, 8), (2, 2), 'POS']
+The service was impeccable and unobtrusive -- the staff knows what they are there to do -- to know their menu , present your meal , and attend to your needs .
+[(1, 1), (3, 3), 'POS'];[(1, 1), (5, 5), 'POS']
+Go to Volare for 1st class service and terrific food .
+[(6, 6), (4, 5), 'POS'];[(9, 9), (8, 8), 'POS']
+Drinks way over priced .
+[(0, 0), (2, 3), 'NEG']
+Whenever you need a Sushi fix , Mizu will be there with quality fish and great service .
+[(13, 13), (12, 12), 'POS'];[(16, 16), (15, 15), 'POS']
+I thought this place was totally overrated .
+[(3, 3), (6, 6), 'NEG']
+The food is delicious - from the specials to the regular menu-fare , the dishes are never a disappointment .
+[(1, 1), (3, 3), 'POS'];[(7, 7), (16, 18), 'POS'];[(10, 11), (16, 18), 'POS'];[(14, 14), (16, 18), 'POS']
+If you go , try the marinara/arrabiatta sauce , the mozzarella en Carozza is mmmmmmmm ... .. everything is just delicious .
+[(6, 7), (4, 4), 'POS'];[(6, 7), (20, 20), 'POS'];[(10, 12), (4, 4), 'POS'];[(10, 12), (20, 20), 'POS']
+The hostess and the waitress were incredibly rude and did everything they could to rush us out .
+[(1, 1), (7, 7), 'NEG'];[(4, 4), (7, 7), 'NEG']
+Do n't dine at Tamarind for the vegetarian dishes , they are simply not up to par with the non-veg selections .
+[(7, 8), (13, 16), 'NEG']
+Haru on Park S is simply disgusting .
+[(0, 3), (6, 6), 'NEG']
+honestly the worst sushi my husband and i had in our entire lives .
+[(3, 3), (2, 2), 'NEG']
+The service was attentive .
+[(1, 1), (3, 3), 'POS']
+The food is tasty and portion sizes are appropriate .
+[(1, 1), (3, 3), 'POS'];[(5, 6), (8, 8), 'POS']
+This is a nice restaurant if you are looking for a good place to host an intimate dinner meeting with business associates .
+[(4, 4), (3, 3), 'POS']
+LOVE THIS PLACE .
+[(2, 2), (0, 0), 'POS']
+The menu is limited but almost all of the dishes are excellent .
+[(1, 1), (3, 3), 'NEG'];[(9, 9), (11, 11), 'POS']
+The lobster sandwich is good and the spaghetti with Scallops and Shrimp is great .
+[(1, 2), (4, 4), 'POS'];[(7, 11), (13, 13), 'POS']
+The only fallback on this restaurant is the prices .
+[(5, 5), (2, 2), 'NEG']
+I loved this place ! !
+[(3, 3), (1, 1), 'POS']
+The service was terrible , we had to wait for everything and ask several of different people for the same thing before we were allowed to be served .
+[(1, 1), (3, 3), 'NEG']
+I would definitely recommend SEA if you like thai cuisine !
+[(8, 9), (7, 7), 'POS']
+I would highly recommend this place !
+[(5, 5), (3, 3), 'POS']
+The food is great and reasonably priced .
+[(1, 1), (3, 3), 'POS'];[(1, 1), (5, 6), 'POS']
+Considering we were the last patrons there and it was after the closing time , the waitstaff did not rush us at all and made us feel comfortable and relaxed .
+[(16, 16), (27, 27), 'POS'];[(16, 16), (29, 29), 'POS']
+We ate out in the back patio , which is worth it as it 's cool and the music is hear well there .
+[(5, 6), (10, 10), 'POS'];[(5, 6), (15, 15), 'POS'];[(18, 18), (21, 21), 'POS']
+but the service was a bit slow .
+[(2, 2), (6, 6), 'NEG']
+I would recommend Roxy 's for that , but not for their food .
+[(12, 12), (2, 2), 'NEG']
+We went here for lunch a couple of weeks ago on a Saturday , and I was thoroughly impressed with the food .
+[(21, 21), (18, 18), 'POS']
+The pesto pizza was excellent , thin-crust pizza with a nice amount of spicy Italian cheese that I 'd never heard of before .
+[(1, 2), (4, 4), 'POS'];[(13, 15), (10, 10), 'POS']
+it 's the only place you can get yummy authentic japanese comfort food .
+[(10, 12), (8, 9), 'POS']
+I am reluctant to write because I would not want my jem of a pizza place to become overcrowded .
+[(14, 15), (18, 18), 'POS']
+By far , the best pizza in Manhattan .
+[(5, 5), (4, 4), 'POS']
+I highly recommend the Sophia pizza .
+[(4, 5), (2, 2), 'POS']
+I expected quite a bit more from such an expensive menu .
+[(10, 10), (9, 9), 'NEG']
+delicious simple food in nice outdoor atmosphere .
+[(2, 2), (0, 1), 'POS'];[(5, 6), (4, 4), 'POS']
+Delicious crab cakes too .
+[(1, 2), (0, 0), 'POS']
+Even if the food was n't this good , the garden is a great place to sit outside and relax .
+[(3, 3), (4, 7), 'POS'];[(10, 10), (13, 13), 'POS']
+This is a nice pizza place with good selection of thin crust pizza including the Basil slice .
+[(4, 5), (3, 3), 'POS'];[(8, 12), (7, 7), 'POS'];[(15, 16), (3, 3), 'POS']
+The counter service is bad .
+[(1, 2), (4, 4), 'NEG']
+The dosas are skimpy , unattractive and drip with grease , and personally I 'd drink popcorn topping before I 'd eat another one of these .
+[(1, 1), (3, 3), 'NEG'];[(1, 1), (5, 5), 'NEG']
+Unique apppetizers .
+[(1, 1), (0, 0), 'POS']
+Good spreads , great beverage selections and bagels really tasty .
+[(1, 1), (0, 0), 'POS'];[(4, 5), (3, 3), 'POS'];[(7, 7), (9, 9), 'POS']
+I will be out with friends and all of a sudden I am hungry and I only crave one thing ... their Pizza .
+[(22, 22), (17, 17), 'POS']
+the turkey burgers are scary !
+[(1, 2), (4, 4), 'NEG']
+The sushi was awful !
+[(1, 1), (3, 3), 'NEG']
+If you like your music blasted and the system isnt that great and if you want to pay at least 100 dollar bottle minimun then you 'll love it here .
+[(4, 4), (2, 2), 'NEG']
+Great atmoshere and worth every bit .
+[(1, 1), (0, 0), 'POS']
+Its location is good and the fact that Hutner College is near and their prices are very reasonable , makes students go back to Suan again and again .
+[(1, 1), (3, 3), 'POS'];[(24, 24), (17, 17), 'POS']
+noodles with shrimp and chicken and coconut juice is the MUST !
+[(0, 7), (10, 10), 'POS']
+During the course of the past 3 months , the chef and staff changed and it was not for the better .
+[(10, 10), (13, 13), 'NEG'];[(12, 12), (13, 13), 'NEG']
+The setting is casual and romantic .
+[(1, 1), (3, 3), 'POS'];[(1, 1), (5, 5), 'POS']
+if you 're daring , try the balsamic vinegar over icecream , it 's wonderful !
+[(7, 10), (5, 5), 'POS'];[(7, 10), (14, 14), 'POS']
+The rest of the dim sum , though pricey by Chinatown standards , is worth it .
+[(4, 5), (8, 8), 'POS'];[(4, 5), (14, 14), 'POS']
+The restaurant is a bit noisy but that is something that can be overlooked once you sit down and enjoy a great meal
+[(1, 1), (5, 5), 'NEU'];[(22, 22), (19, 19), 'POS'];[(22, 22), (21, 21), 'POS']
+this little place has a cute interior decor and affordable city prices .
+[(2, 2), (1, 1), 'POS'];[(6, 7), (5, 5), 'POS']
+Have eaten at Ginger House several times , and it 's always good .
+[(3, 4), (12, 12), 'POS']
+The fried dumplings are GREAT !
+[(1, 2), (4, 4), 'POS']
+The baked clams octopus we shared as appetizers were the best we 've ever had ! !
+[(1, 3), (10, 10), 'POS']
+Small servings for main entree , i had salmon ( wasnt impressed ) girlfriend had chicken , it was good .
+[(1, 4), (0, 0), 'NEG'];[(8, 8), (10, 11), 'NEG'];[(15, 15), (19, 19), 'POS']
+Still , any quibbles about the bill were off-set by the pour-your-own measures of liquers which were courtesey of the house ...
+[(12, 14), (11, 11), 'POS'];[(12, 14), (17, 17), 'POS']
+Excellent spot for holiday get togethers with co-workers or friends that you have n't seen in a while .
+[(1, 1), (0, 0), 'POS']
+The shrimp scampi was excellent and the antipasti were plentiful .
+[(1, 2), (4, 4), 'POS'];[(7, 7), (9, 9), 'POS']
+Too bad the food was n't of the same heritage .
+[(3, 3), (1, 1), 'NEG']
+I also recommend the rice dishes or the different varieties of congee ( rice porridge ) .
+[(4, 5), (2, 2), 'POS']
+Warm and friendly in the winter and terrific outdoor seating in the warmer months .
+[(8, 9), (7, 7), 'POS']
+service is friendly , and never had a problem walking in and getting a table .
+[(0, 0), (2, 2), 'POS']
+Ravioli was good ... but I have to say that I found everything a bit overpriced .
+[(0, 0), (2, 2), 'POS'];[(0, 0), (15, 15), 'POS']
+Not enough wines by the glass either .
+[(2, 5), (0, 1), 'NEG']
+Service , however , was excellent ... and I liked the setting/atmosphere a lot .
+[(0, 0), (5, 5), 'POS'];[(11, 11), (9, 9), 'POS']
+Food was just average ... if they lowered the prices just a bit , it would be a bigger draw .
+[(0, 0), (3, 3), 'NEG']
+Faan is sooo good .
+[(0, 0), (3, 3), 'POS']
+The mussles were the fishiest things I 've ever tasted , the seabass was bland , the goat cheese salad was missing the goat cheese , the penne w/ chicken had bones in it ... It was disgusting .
+[(1, 1), (4, 4), 'NEG'];[(12, 12), (14, 14), 'NEG'];[(17, 19), (21, 21), 'NEG'];[(27, 29), (37, 37), 'NEG']
+My fav was the sassy lassi ...
+[(4, 5), (1, 1), 'POS']
+The portions are HUGE , so it might be good to order three things to split ( rather than one appetizer and entree per person ) for two people .
+[(1, 1), (3, 3), 'POS']
+The service is good and the resturant is clean .
+[(1, 1), (3, 3), 'POS'];[(6, 6), (8, 8), 'POS']
+We recently decided to try this location , and to our delight , they have outdoor seating , perfect since I had my yorkie with me .
+[(15, 16), (18, 18), 'POS']
+Excellent dumplings served amid clean , chic decor .
+[(1, 1), (0, 0), 'POS'];[(7, 7), (4, 4), 'POS'];[(7, 7), (6, 6), 'POS']
+The food was delicious but do not come here on a empty stomach .
+[(1, 1), (3, 3), 'NEG']
+Great food and the prices are very reasonable .
+[(1, 1), (0, 0), 'POS']
+Consistently good Japanese Tapas .
+[(2, 3), (1, 1), 'POS']
+Atmosphere is nice and relaxed too ...
+[(0, 0), (2, 2), 'POS'];[(0, 0), (4, 4), 'POS']
+The food is okay and the prices here are mediocre .
+[(1, 1), (3, 3), 'NEU']
+There is no excuse for such lousy service !
+[(7, 7), (6, 6), 'NEG']
+I went to Areo on a Sunday afternoon with four of my girlfriends , and spent three enjoyable hours there .
+[(3, 3), (17, 17), 'POS']
+The vibe is very relaxed and cozy , service was great and the food was excellent !
+[(1, 1), (4, 4), 'POS'];[(1, 1), (6, 6), 'POS'];[(8, 8), (10, 10), 'POS'];[(13, 13), (15, 15), 'POS']
+Food was good and the view of the new york city skiline was terrific even on a foggy rainy day like that of when I went .
+[(0, 0), (2, 2), 'POS'];[(5, 11), (13, 13), 'POS']
+We were 4 and got the family size penne a la vodka which was tremendously gigantic portion ... a bucket of food literally .
+[(8, 11), (15, 15), 'POS']
+I found it on a cold night , the perfect spot to warm up .
+[(10, 10), (9, 9), 'POS']
+I recieved prompt service with a smile .
+[(3, 3), (2, 2), 'POS']
+I 've also been amazed at all the new additions in the past few years : A new Jazz Bar , the most fantastic Dining Garden , the Best Thin Crust Pizzas , and now a Lasagna Menu which is to die for ( these are not your average lasagnas ) !
+[(18, 19), (17, 17), 'POS'];[(24, 25), (23, 23), 'POS'];[(29, 31), (28, 28), 'POS'];[(36, 37), (41, 42), 'POS']
+We could have made a meal of the yummy dumplings from the dumpling menu .
+[(9, 9), (8, 8), 'POS']
+It was totally overpriced - fish and chips was about $ 15 ... .
+[(5, 7), (3, 3), 'NEG']
+Tasty Dog !
+[(1, 1), (0, 0), 'POS']
+We had half/half pizza , mine was eggplant and my friend had the buffalo and it was sooo huge for a small size pizza !
+[(2, 3), (18, 18), 'POS']
+Delivery can be spot on or lacking depending on the weather and the day of the week .
+[(0, 0), (6, 6), 'NEG']
+Delivery guy sometimes get upset if you do n't tip more than 10 % .
+[(0, 1), (4, 4), 'NEG']
+Excellent sashimi , and the millennium roll is beyond delicious .
+[(1, 1), (0, 0), 'POS'];[(5, 6), (9, 9), 'POS']
+The place is a bit hidden away , but once you get there , it 's all worth it .
+[(1, 1), (5, 6), 'POS'];[(1, 1), (17, 17), 'POS']
+Excellent food for great prices
+[(1, 1), (0, 0), 'POS']
+The wait staff is very courteous and accomodating .
+[(1, 2), (5, 5), 'POS'];[(1, 2), (7, 7), 'POS']
+i love their chicken pasta cant remember the name but is sooo good
+[(3, 4), (1, 1), 'POS']
+I think the pizza is so overrated and was under cooked .
+[(3, 3), (6, 6), 'NEG'];[(3, 3), (9, 10), 'NEG']
+The service was quick and friendly .
+[(1, 1), (3, 3), 'POS'];[(1, 1), (5, 5), 'POS']
+I ordered the vitello alla marsala and I was pretty impressed .
+[(3, 5), (10, 10), 'POS']
+Red Dragon Roll - my favorite thing to eat , of any food group - hands down
+[(0, 2), (5, 5), 'POS']
+In the summer months , the back garden area is really nice .
+[(6, 8), (11, 11), 'POS']
+Great Indian Food !
+[(1, 2), (0, 0), 'POS']
+This is one of my favorite spot , very relaxing the food is great all the times , celebrated my engagement and my wedding here , it was very well organized .
+[(11, 11), (13, 13), 'POS']
+I highly recommend this beautiful place .
+[(5, 5), (2, 2), 'POS'];[(5, 5), (4, 4), 'POS']
+Nice view of river and NYC .
+[(1, 5), (0, 0), 'POS']
+A beautifully designed dreamy Egyptian restaurant that gets sceney at night .
+[(4, 5), (3, 3), 'POS']
+The drinks are great , especially when made by Raymond .
+[(1, 1), (3, 3), 'POS'];[(9, 9), (3, 3), 'POS']
+quacamole at pacifico is yummy , as are the wings with chimmichuri .
+[(0, 0), (4, 4), 'POS'];[(9, 11), (4, 4), 'POS']
+Also , I personally was n't a fan of the portobello and asparagus mole .
+[(10, 13), (7, 7), 'NEG']
+This small Astoria souvlaki spot makes what many consider the best gyros in New York .
+[(11, 11), (10, 10), 'POS']
+What really makes it shine is the food , which is aggressively seasoned with Cyrpriot spices , and all made in-house ( even the gyro meat and sausages ) , and made of much higher quality ingredients that might otherwise be expected .
+[(7, 7), (4, 4), 'POS'];[(24, 25), (20, 20), 'POS'];[(27, 27), (20, 20), 'POS'];[(36, 36), (34, 35), 'POS']
+Great food , amazing service , this place is a class act .
+[(1, 1), (0, 0), 'POS'];[(4, 4), (3, 3), 'POS'];[(7, 7), (10, 11), 'POS']
+Service ok but unfriendly , filthy bathroom .
+[(0, 0), (1, 1), 'NEG'];[(0, 0), (3, 3), 'NEG'];[(6, 6), (5, 5), 'NEG']
+The bread we received was horrible - rock hard and cold - and the `` free '' appetizer of olives was disappointing .
+[(1, 1), (5, 5), 'NEG'];[(1, 1), (7, 8), 'NEG'];[(1, 1), (10, 10), 'NEG'];[(17, 19), (21, 21), 'NEG']
+The service was extremely fast and attentive ( thanks to the service button on your table ) but I barely understood 1 word when the waiter took our order .
+[(1, 1), (4, 4), 'POS'];[(1, 1), (6, 6), 'POS'];[(11, 12), (8, 9), 'POS'];[(25, 25), (19, 20), 'NEG']
+Over all the looks of the place exceeds the actual meals .
+[(3, 3), (7, 7), 'POS']
+I go out to eat and like my courses , servers are patient and never rush courses or force another drink .
+[(10, 10), (12, 12), 'POS']
+Food took some time to prepare , all worth waiting for .
+[(0, 0), (8, 8), 'POS']
+I never write on these sites but this restaurant is def worth commending !
+[(8, 8), (11, 11), 'POS']
+Yamato is an excellent place to go if youre not into sashimi , or if you have friends who doesnt like sushi much .
+[(0, 0), (3, 3), 'POS']
+One special roll and one regular roll is enough to fill you up , but save room for dessert !
+[(1, 2), (8, 8), 'POS'];[(5, 6), (8, 8), 'POS'];[(18, 18), (15, 16), 'POS']
+Amazing food .
+[(1, 1), (0, 0), 'POS']
+Indo Chinese food , pretty good ...
+[(0, 2), (5, 5), 'POS']
+My mom originally introduced me to this place , but even she ( being Indian ) feels the food can be somewhat over the top spicy and far too oily .
+[(18, 18), (25, 25), 'NEG'];[(18, 18), (29, 29), 'NEG']
+great hot dogs .
+[(1, 2), (0, 0), 'POS']
+I literally just got back home after visiting Casa La Femme and was so offended by my visit felt it necessary to try and warn other diners who value their money and time .
+[(8, 10), (14, 14), 'NEG']
+If it seemed possible to do so while there I would have fought my bill since my dinner portion of my meal was inedible !
+[(21, 21), (23, 23), 'NEG']
+There was no tap beer that evening , which was a disappointment .
+[(4, 4), (11, 11), 'NEG']
+Service not the friendliest to our `` large party '' !
+[(0, 0), (1, 3), 'NEG']
+Bukhara is on my top 5 Indian places in NYC
+[(0, 0), (4, 4), 'POS']
+However , once I received my predictably mediocre order of what Dokebi thinks passes as Korean fair , ( sometimes you have to settle when it 's your only option ) , I got through about half my kimchee before I found a piece of random lettuce accompanied by a far more disgusting , slimy , clearly bad piece of fish skin .
+[(15, 16), (7, 7), 'NEG'];[(38, 38), (52, 52), 'NEG']
+I completely recommend Casa La Femme for any special occasion and to REALLY impress your date .
+[(3, 5), (2, 2), 'POS']
+Love this place , every time we are in the city this is one of the places we always go .
+[(2, 2), (0, 0), 'POS']
+A quintessential slice of NYC pizza .
+[(2, 5), (1, 1), 'NEU']
+If you ’ re planning to come here , make sure that your date is someone whom you really like since you ’ ll be ushered to private booths where there will be no people or food watching ( choose the ones on the ground level that have glass ceilings so you may see the stars in the sky ! ) .
+[(27, 28), (25, 25), 'POS']
+I picked the Grilled Black Cod as my entree , which I absolutely devoured while someone commented that the Grilled Salmon dish was better .
+[(3, 5), (13, 13), 'POS'];[(19, 21), (23, 23), 'POS']
+Maybe it was the great company ( I had friends visiting from Philly – yes , it was not a date this time ) or the super reasonable price point , but I just can ’ t say enough good things about this brasserie .
+[(43, 43), (39, 39), 'POS']
+The service leaves much to be desired , from feeling like you are rushed the place your order , to being ignored the rest of the night .
+[(1, 1), (2, 6), 'NEG']
+Dokebi gives Williamsburg the right one-two punch of classic Korean food and fusion twists like pork belly tacos .
+[(9, 10), (8, 8), 'POS'];[(12, 13), (8, 8), 'POS'];[(15, 17), (8, 8), 'POS']
+This place is not inviting and the food is totally weird .
+[(1, 1), (3, 4), 'NEG'];[(7, 7), (10, 10), 'NEG']
+Good Food
+[(1, 1), (0, 0), 'POS']
+Our waitress was n't mean , but not especially warm or attentive either .
+[(1, 1), (2, 4), 'NEU'];[(1, 1), (7, 11), 'NEU']
+The servers at Flatbush Farm appear to have perfected that ghastly technique of making you feel guilty and ashamed for deigning to attract their attention .
+[(1, 1), (8, 8), 'NEG']
+Overall the food quality was pretty good , though I hear the salmon is much better when it has n't sat cooling in front of the guest .
+[(2, 2), (6, 6), 'POS']
+Everything was going good until we got our meals .
+[(8, 8), (3, 3), 'NEG']
+THIS STAFF SHOULD BE FIRED .
+[(1, 1), (4, 4), 'NEG']
+it was really good pizza .
+[(4, 4), (3, 3), 'POS']
+I had the Lamb special which was perfect .
+[(3, 4), (7, 7), 'POS']
+The Four Seasons restaurant is a great experience .
+[(0, 3), (6, 6), 'POS']
+The food is very good , but not outstanding .
+[(1, 1), (4, 4), 'NEU'];[(1, 1), (7, 8), 'NEU']
+The pasta was well cooked , did n't have enough sauce though or flavor .
+[(1, 1), (3, 4), 'NEG']
+The hostess was rude and I got a distinct feeling that they did not want to serve us .
+[(1, 1), (3, 3), 'NEG']
