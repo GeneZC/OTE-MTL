@@ -1,7 +1,7 @@
 # OTE-MTL
 
 **OTE-MTL** - **M**ulti-**T**ask **L**earning for **O**pinion **T**riplet **E**xtraction
-* Code and preprocessed dataset for [EMNLP 2020 Findings](https://2020.emnlp.org/) paper titled "[A Multi-task Learning Framework for Opinion Triplet Extraction](https://arxiv.org/abs/1909.03477)" 
+* Code and preprocessed dataset for [EMNLP 2020 Findings](https://2020.emnlp.org/) paper titled "[A Multi-task Learning Framework for Opinion Triplet Extraction](https://arxiv.org/abs/2010.01512)" 
 * [Chen Zhang](https://genezc.github.io), [Qiuchi Li](https://qiuchili.github.io), [Dawei Song](http://cs.bit.edu.cn/szdw/jsml/js/sdw/index.htm) and [Benyou Wang](https://wabyking.github.io/old).
 
 ## Requirements
@@ -41,6 +41,6 @@ If you use the code in your paper, please kindly star this repo and cite our pap
 } 
 ```
 
-## Suggestion
+## Contact
 
 * For any issues or suggestions about this work, don't hesitate to create an issue or directly contact me via [gene_zhangchen@163.com](mailto:gene_zhangchen@163.com) !
