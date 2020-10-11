@@ -19,13 +19,13 @@ python train.py --model_name ote --dataset rest14
 ```
 * Infer with [infer.py](/infer.py)
 
-## Model
+## Task
 
 The state-of-the-art Aspect-based Sentiment Analysis (ABSA) approaches are mainly based on either detecting aspect terms and their corresponding sentiment polarities, or co-extracting aspect and opinion terms. However, the extraction of aspect-sentiment pairs lacks opinion terms as a reference, while co-extraction of aspect and opinion terms would not lead to meaningful pairs without determining their sentiment dependencies. To address the issue, we present a novel view of ABSA as an opinion triplet extraction task, and propose a multi-task learning framework to jointly extract aspect terms and opinion terms, and simultaneously parses sentiment dependencies between them with a biaffine scorer. At inference phase, the extraction of triplets is facilitated by a triplet decoding method based on the above outputs.
 
-An overview of our proposed model is given below
+An overview of our proposed task is given below
 
-![model](/assets/model.png)
+![model](/assets/task.png)
 
 ## Citation
 
