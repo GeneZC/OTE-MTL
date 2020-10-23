@@ -27,6 +27,10 @@ An overview of our proposed task is given below
 
 ![model](/assets/task.png)
 
+## Correlated Task
+
+Our proposed task is highly correlated with the task proposed in https://arxiv.org/abs/1911.01616. While our task focus on extracting (aspect term, opinion term, sentiment) opinion triplets (OTs), they extract (aspect term-sentiment pair, opinion term)s, termed aspect sentiment triplets (ASTs). To some extent, the two can be viewed as the same and our formulation is not novel any more. However, owing to the minor difference lying in formulations, two drawbacks in the formulation of ASTs are presented: (i) sentiments are determined without accessing opinion terms, (ii) conflicting opinions expressed towards an aspect cannot be predicted. Therefore, we give a new name opinion triplet extraction (OTE) to our formulation of task for a distinction.
+
 ## Citation
 
 If you use the code in your paper, please kindly star this repo and cite our paper
