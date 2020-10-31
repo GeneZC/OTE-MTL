@@ -134,7 +134,7 @@ class ABSADataReader(object):
             op_tags = ['O'] * seq_len
             ap_op_tags = ['O'] * seq_len
 
-            triplet_indices = np.zeros((seq_len, seq_len), dtype='int')
+            triplet_indices = np.zeros((seq_len, seq_len), dtype=np.int64)
             ap_spans = []
             op_spans = []
             triplets = []
