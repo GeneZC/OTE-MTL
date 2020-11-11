@@ -32,13 +32,20 @@ An overview of the task opinion triplet extraction (OTE) is given below
 If you use the code in your paper, please kindly star this repo and cite our paper
 
 ```bibtex
-@inproceedings{Zhang2020, 
-    title = "A Multi-task Learning Framework for Opinion Triplet Extraction", 
-    author = "Zhang, Chen and Li, Qiuchi and Song, Dawei and Benyou Wang", 
-    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)", 
-    year = "2020", 
-    publisher = "Association for Computational Linguistics", 
-} 
+@inproceedings{zhang-etal-2020-multi,
+    title = "A Multi-task Learning Framework for Opinion Triplet Extraction",
+    author = "Zhang, Chen  and
+      Li, Qiuchi  and
+      Song, Dawei  and
+      Wang, Benyou",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: Findings",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.findings-emnlp.72",
+    pages = "819--828",
+}
 ```
 
 ## Contact
