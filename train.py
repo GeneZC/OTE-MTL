@@ -8,19 +8,22 @@ import torch
 import torch.nn as nn
 import numpy as np
 from bucket_iterator import BucketIterator
-from data_utils import ABSADataReader, build_tokenizer, build_embedding_matrix
+from data_utils import ABSADataReader, ABSADataReaderV2, build_tokenizer, build_embedding_matrix
 from models import CMLA, HAST, OTE
 
 class Instructor:
     def __init__(self, opt):
         self.opt = opt
-
-        absa_data_reader = ABSADataReader(data_dir=opt.data_dir)
+        
+        if opt.v2:
+            absa_data_reader = ABSADataReaderV2(data_dir=opt.data_dir)
+        else:
+            absa_data_reader = ABSADataReader(data_dir=opt.data_dir)
         tokenizer = build_tokenizer(data_dir=opt.data_dir)
         embedding_matrix = build_embedding_matrix(opt.data_dir, tokenizer.word2idx, opt.embed_dim, opt.dataset)
         self.idx2tag, self.idx2polarity = absa_data_reader.reverse_tag_map, absa_data_reader.reverse_polarity_map
         self.train_data_loader = BucketIterator(data=absa_data_reader.get_train(tokenizer), batch_size=opt.batch_size, shuffle=True)
-        self.valid_data_loader = BucketIterator(data=absa_data_reader.get_valid(tokenizer), batch_size=opt.batch_size, shuffle=False)
+        self.dev_data_loader = BucketIterator(data=absa_data_reader.get_dev(tokenizer), batch_size=opt.batch_size, shuffle=False)
         self.test_data_loader = BucketIterator(data=absa_data_reader.get_test(tokenizer), batch_size=opt.batch_size, shuffle=False)
         self.model = opt.model_class(embedding_matrix, opt, self.idx2tag, self.idx2polarity).to(opt.device)
         self._print_args()
@@ -51,7 +54,7 @@ class Instructor:
                     torch.nn.init.uniform_(p, a=-stdv, b=stdv)
 
     def _train(self, optimizer):
-        max_valid_f1 = 0
+        max_dev_f1 = 0
         best_state_dict_path = ''
         global_step = 0
         continue_not_increase = 0
@@ -74,16 +77,16 @@ class Instructor:
                 optimizer.step()
 
                 if global_step % self.opt.log_step == 0:
-                    valid_ap_metrics, valid_op_metrics, valid_triplet_metrics = self._evaluate(self.valid_data_loader)
-                    valid_ap_precision, valid_ap_recall, valid_ap_f1 = valid_ap_metrics
-                    valid_op_precision, valid_op_recall, valid_op_f1 = valid_op_metrics
-                    valid_triplet_precision, valid_triplet_recall, valid_triplet_f1 = valid_triplet_metrics
-                    print('valid_ap_precision: {:.4f}, valid_ap_recall: {:.4f}, valid_ap_f1: {:.4f}'.format(valid_ap_precision, valid_ap_recall, valid_ap_f1))
-                    print('valid_op_precision: {:.4f}, valid_op_recall: {:.4f}, valid_op_f1: {:.4f}'.format(valid_op_precision, valid_op_recall, valid_op_f1))
-                    print('loss: {:.4f}, valid_triplet_precision: {:.4f}, valid_triplet_recall: {:.4f}, valid_triplet_f1: {:.4f}'.format(loss.item(), valid_triplet_precision, valid_triplet_recall, valid_triplet_f1))
-                    if valid_triplet_f1 > max_valid_f1:
+                    dev_ap_metrics, dev_op_metrics, dev_triplet_metrics = self._evaluate(self.dev_data_loader)
+                    dev_ap_precision, dev_ap_recall, dev_ap_f1 = dev_ap_metrics
+                    dev_op_precision, dev_op_recall, dev_op_f1 = dev_op_metrics
+                    dev_triplet_precision, dev_triplet_recall, dev_triplet_f1 = dev_triplet_metrics
+                    print('dev_ap_precision: {:.4f}, dev_ap_recall: {:.4f}, dev_ap_f1: {:.4f}'.format(dev_ap_precision, dev_ap_recall, dev_ap_f1))
+                    print('dev_op_precision: {:.4f}, dev_op_recall: {:.4f}, dev_op_f1: {:.4f}'.format(dev_op_precision, dev_op_recall, dev_op_f1))
+                    print('loss: {:.4f}, dev_triplet_precision: {:.4f}, dev_triplet_recall: {:.4f}, dev_triplet_f1: {:.4f}'.format(loss.item(), dev_triplet_precision, dev_triplet_recall, dev_triplet_f1))
+                    if dev_triplet_f1 > max_dev_f1:
                         increase_flag = True
-                        max_valid_f1 = valid_triplet_f1
+                        max_dev_f1 = dev_triplet_f1
                         best_state_dict_path = 'state_dict/'+self.opt.model+'_'+self.opt.dataset+'.pkl'
                         torch.save(self.model.state_dict(), best_state_dict_path)
                         print('>>> best model saved.')
@@ -207,6 +210,7 @@ class Instructor:
 if __name__ == '__main__':
     # Hyper Parameters
     parser = argparse.ArgumentParser()
+    parser.add_argument('--v2', action='store_true')
     parser.add_argument('--model', default='ote', type=str)
     parser.add_argument('--dataset', default='laptop14', type=str, help='laptop14, rest14, rest15, rest16')
     parser.add_argument('--initializer', default='xavier_uniform_', type=str)

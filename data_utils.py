@@ -78,7 +78,7 @@ def build_tokenizer(data_dir):
                 word2idx = pickle.load(f)
                 tokenizer = Tokenizer(word2idx=word2idx)
     else:
-        filenames = [os.path.join(data_dir, '%s.txt' % set_type) for set_type in ['train', 'valid', 'test']]
+        filenames = [os.path.join(data_dir, '%s.txt' % set_type) for set_type in ['train', 'dev', 'test']]
         all_text = ''
         for filename in filenames:
             with open(filename, 'r', encoding='utf-8') as fp:
@@ -103,8 +103,8 @@ class ABSADataReader(object):
     def get_train(self, tokenizer):
         return self._create_dataset('train', tokenizer)
 
-    def get_valid(self, tokenizer):
-        return self._create_dataset('valid', tokenizer)
+    def get_dev(self, tokenizer):
+        return self._create_dataset('dev', tokenizer)
 
     def get_test(self, tokenizer):
         return self._create_dataset('test', tokenizer)
@@ -142,6 +142,68 @@ class ABSADataReader(object):
                 pair = eval(pair)
                 ap_beg, ap_end = pair[0]
                 op_beg, op_end = pair[1]
+                polarity_str = pair[2]
+                ap_tags[ap_beg:ap_end+1] = ['T'] * (ap_end-ap_beg+1)
+                op_tags[op_beg:op_end+1] = ['T'] * (op_end-op_beg+1)
+                ap_op_tags[ap_beg:ap_end+1] = ['T-AP'] * (ap_end-ap_beg+1)
+                ap_op_tags[op_beg:op_end+1] = ['T-OP'] * (op_end-op_beg+1)
+                polarity = self.polarity_map[polarity_str]
+                triplet_indices[ap_end, op_end] = polarity
+                if (ap_beg, ap_end) not in ap_spans:
+                    ap_spans.append((ap_beg, ap_end))
+                if (op_beg, op_end) not in op_spans:
+                    op_spans.append((op_beg, op_end))
+                triplets.append((ap_beg, ap_end, op_beg, op_end, polarity))
+
+            # convert from ot to bio
+            ap_tags = to2bio(ap_tags)
+            op_tags = to2bio(op_tags)
+            ap_op_tags = to2bio(ap_op_tags)
+
+            ap_indices = [self.tag_map[tag] for tag in ap_tags]
+            op_indices = [self.tag_map[tag] for tag in op_tags]
+
+            data = {
+                'text_indices': text_indices,
+                'ap_indices': ap_indices,
+                'op_indices': op_indices,
+                'triplet_indices': triplet_indices,
+                'ap_spans': ap_spans,
+                'op_spans': op_spans,
+                'triplets': triplets,
+            }
+            all_data.append(data)
+        
+        return all_data
+
+class ABSADataReaderV2(ABSADataReader):
+    def __init__(self, data_dir):
+        super(ABSADataReaderV2, self).__init__(data_dir)
+
+    def _create_dataset(self, set_type, tokenizer):
+        all_data = []
+
+        filename = os.path.join(self.data_dir, '%s_triplets.txt' % set_type)
+        fp = open(filename, 'r', encoding='utf-8')
+        lines = fp.readlines()
+        fp.close()
+
+        for i in range(len(lines)):
+            text, pairs = lines[i].strip().split('####')
+
+            text_indices = tokenizer.text_to_sequence(text)
+            seq_len = len(text_indices)
+            ap_tags = ['O'] * seq_len
+            op_tags = ['O'] * seq_len
+            ap_op_tags = ['O'] * seq_len
+
+            triplet_indices = np.zeros((seq_len, seq_len), dtype=np.int64)
+            ap_spans = []
+            op_spans = []
+            triplets = []
+            for pair in eval(pairs):
+                ap_beg, ap_end = pair[0][0], pair[0][-1]
+                op_beg, op_end = pair[1][0], pair[1][-1]
                 polarity_str = pair[2]
                 ap_tags[ap_beg:ap_end+1] = ['T'] * (ap_end-ap_beg+1)
                 op_tags[op_beg:op_end+1] = ['T'] * (op_end-op_beg+1)
