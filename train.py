@@ -154,8 +154,11 @@ class Instructor:
 
         if not os.path.exists('state_dict/'):
             os.mkdir('state_dict/')
+        if self.opt.v2:
+            f_out = open('log/'+self.opt.model+'_'+self.opt.dataset+'_val_v2.txt', 'w', encoding='utf-8')
 
-        f_out = open('log/'+self.opt.model+'_'+self.opt.dataset+'_val.txt', 'w', encoding='utf-8')
+        else:
+            f_out = open('log/'+self.opt.model+'_'+self.opt.dataset+'_val.txt', 'w', encoding='utf-8')
 
         test_ap_precision_avg = 0
         test_ap_recall_avg = 0
