@@ -42,9 +42,9 @@ class Biaffine(nn.Module):
 
         return biaffine
 
-class OTE(nn.Module):
+class MTL(nn.Module):
     def __init__(self, embedding_matrix, opt, idx2tag, idx2polarity):
-        super(OTE, self).__init__()
+        super(MTL, self).__init__()
         self.opt = opt
         self.idx2tag = idx2tag
         self.tag_dim = len(self.idx2tag)
