@@ -19,7 +19,7 @@
 * Download pretrained GloVe embeddings with this [link](http://nlp.stanford.edu/data/wordvecs/glove.840B.300d.zip) and extract `glove.840B.300d.txt` into `glove/`.
 * Train with command, optional arguments could be found in [train.py](/train.py), **--v2** denotes whether test on datav2
 ```bash
-python train.py --model ote --dataset rest14 [--v2]
+python train.py --model mtl --dataset rest14 [--v2]
 ```
 * Infer with [infer.py](/infer.py)
 
