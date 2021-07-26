@@ -9,7 +9,7 @@ import torch.nn as nn
 import numpy as np
 from bucket_iterator import BucketIterator
 from data_utils import ABSADataReader, ABSADataReaderV2, build_tokenizer, build_embedding_matrix
-from models import CMLA, HAST, OTE
+from models import CMLA, HAST, MTL
 
 class Instructor:
     def __init__(self, opt):
@@ -233,17 +233,17 @@ if __name__ == '__main__':
     model_classes = {
         'cmla': CMLA,
         'hast': HAST,
-        'ote': OTE,
+        'mtl': MTL,
     }
     input_colses = {
         'cmla': ['text_indices', 'text_mask'],
         'hast': ['text_indices', 'text_mask'],
-        'ote': ['text_indices', 'text_mask'],
+        'mtl': ['text_indices', 'text_mask'],
     }
     target_colses = {
         'cmla': ['ap_indices', 'op_indices', 'triplet_indices', 'text_mask'],
         'hast': ['ap_indices', 'op_indices', 'triplet_indices', 'text_mask'],
-        'ote': ['ap_indices', 'op_indices', 'triplet_indices', 'text_mask'],
+        'mtl': ['ap_indices', 'op_indices', 'triplet_indices', 'text_mask'],
     }
     initializers = {
         'xavier_uniform_': torch.nn.init.xavier_uniform_,
